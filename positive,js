@@ -1,0 +1,23 @@
+function positivenbrs (num) {
+    if (num = num >=0) {
+        return 'All elements are positive' ;
+    }
+    else {
+        return 'Not all elements are positive' ;
+    }
+}
+
+const arr = [1,-2,4,6,9,8,-7] ;
+const results = positivenbrs(arr) ;
+console.log(results) ;
+
+function removelast(arr) {
+    if (arr.length > 0){
+        return arr.pop() ;
+    }
+    
+}
+
+const array = [1,2,3,4,5,6,7] ;
+removelast(array) ;
+console.log(array);
